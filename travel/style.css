@@ -1,0 +1,163 @@
+header {
+    height: 100vw;
+    background-image: url(img/pexels-photo-4577736.jpeg);
+    background-size: cover;
+}
+body {
+    margin: 0%;
+}
+header div {
+    display: flex;
+    height: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+header h1 {
+    margin: auto;
+    color: antiquewhite;
+    font-size: 7vw;
+    font-family: bazaart;
+}
+@font-face {
+    font-family: bazaart;
+    src: url(fonts/bazaart.otf);
+}
+@font-face {
+    font-family: Regular;
+    src: url(fonts/SFProText-Regular.ttf);
+}
+#meow1 {
+    background-image: url(img/pexelsphoto3254036.jpeg);
+    background-size: cover;
+    padding: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+#meow2 {
+    width: 50%;
+    font-size: 3vw;
+    color: rgb(178, 255, 139);
+    padding: 3%;
+    font-family: bazaart;
+}
+#meow3 {
+    width: 50%;
+    color: rgb(127, 255, 163);
+    padding: 3%;
+    line-height: 1.7;
+    font-size: 2vw;
+    font-family: Regular;
+}
+#meow1 button {
+    padding: 20px 40px;
+    background-color: rgb(77, 154, 95);
+    border: none;
+    font-family: Regular;
+}
+#meow4 {
+    background-image: url(img/745e.jpg);
+    background-size: cover;
+}
+#meow5 {
+    width: 50%;
+    color: rgb(255, 232, 139);
+    box-sizing: border-box;
+    padding-left: 12%;
+    padding-top: 12%;
+    font-family: bazaart;
+    font-size: 5vw;
+    transition: all 2s; 
+}
+#meow6 {
+    font-family: Regular;
+    width: 40%;
+    font-size: 2vw;
+    padding: 3%;
+    font-family: Regular;
+    color: rgb(255, 232, 139);
+    padding-left: 12%;
+    transition: all 2s;
+}
+#meow4 #filter {
+    background-color: rgba(0, 0, 0, 0.317);
+}
+#meow7 {
+    background-image: url(img/pexelsphoto3649185.jpeg);
+    background-size: cover;
+    padding: 10%;
+    display: flex;
+
+}
+#meow8 {   
+    justify-content: space-between;
+    font-size: 5vw;
+    color: hsl(16, 100%, 57%);
+    padding: 3%;
+    font-family: bazaart;
+}
+#meow9 {
+    font-family: Regular;
+    width: 40%;
+    font-size: 2vw;
+    padding: 3%;
+    font-family: Regular;
+    color: hsl(39, 100%, 62%);
+    padding-left: 0%;
+    padding: 1%;
+    background-color: hsla(0, 0%, 0%, 0.75);
+}
+#meow10 {
+    background-image: url(img/optimized.jpg);
+    background-size: cover;
+    background-position: -50px;
+    padding: 10%;
+    display: flex;
+
+}
+#meow11 {   
+    justify-content: space-between;
+    font-size: 5vw;
+    color: hsl(11, 100%, 68%);
+    padding: 3%;
+    font-family: bazaart;
+}
+#meow12 {
+    font-family: Regular;
+    width: 40%;
+    font-size: 2vw;
+    padding: 3%;
+    font-family: Regular;
+    color: hsl(358, 62%, 66%);
+    padding-left: 0%;
+    padding: 1%;
+    background-color: hsla(0, 0%, 0%, 0.75);
+}
+nav {
+    padding: 25px 0;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a {
+    font-family: Regular;
+    font-size: 3vw;
+    text-decoration: none;
+    color: rgb(106, 186, 160);
+    border-right: 2px solid rgb(196, 196, 196);
+    width: 25%;
+    text-align: center;
+    box-sizing: border-box;
+}
+nav a:last-child {
+    border: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+#up{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+nav a:hover{
+    color: aliceblue;
+}

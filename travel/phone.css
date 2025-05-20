@@ -1,0 +1,8 @@
+@media (max-width: 1000px) {
+    #meow1 {
+        flex-direction: column;
+    }
+    #meow1 button {
+    padding: 10px 20px;
+    }
+}
